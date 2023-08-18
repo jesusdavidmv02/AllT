@@ -21,12 +21,4 @@ public  class BolsaSupermercado<T> {
        productos.add(element);
     }
 
-    /*
-       if(this.productos.size() <= max) {
-            this.productos.add(p);
-        } else {
-            throw new RuntimeException("no hay más espacio.");
-        }
-    }*/
-
 }
