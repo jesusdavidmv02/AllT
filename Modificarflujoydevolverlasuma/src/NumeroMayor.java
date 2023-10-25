@@ -21,14 +21,7 @@ public class NumeroMayor {
             System.out.println("dijite datos y para el arreglos : ");
             arreglo[i]= sc.nextInt();
         }
-
         Arrays.stream(arreglo).max();
-
         System.out.println( "El dato mayor de un array  es de : " + Arrays.stream(arreglo).max());
-        
-        
-        
     }
-
-
 }
