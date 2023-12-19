@@ -8,7 +8,7 @@ import org.Jmendoza.repositorio.RepositorioImplement;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class EjemploJdbcDelete {
+public class MainDelete {
     public static void main(String[] args) {
         try (Connection conn = ConexionBatabase.getInstane()) {
 

@@ -8,7 +8,7 @@ import org.Jmendoza.repositorio.RepositorioImplement;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class EjemploJdbcUpdate {
+public class MainUpdate {
     public static void main(String[] args) {
         try (Connection conn = ConexionBatabase.getInstane()) {
 
@@ -21,9 +21,10 @@ public class EjemploJdbcUpdate {
 
             System.out.println("============= editar producto =============");
             Usuario user = new Usuario();
-            user.setId(3L);
+            user.setId(1L);
             user.setName("Teclado Razer mecánico");
             user.setLasname("mendoza");
+            user.setEdad(90);
             repositorio.inser(user);
 
             System.out.println("Producto editado con éxito");
